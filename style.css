@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* FORCE background */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* Dark blue background */
+body {
+  background-color: #0d1b2a;
+  color: #c7c7c7;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Page layout */
+.page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Website name at top */
+.site-name {
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* Center EVERYTHING else */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Light blue button */
+.nav-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #6fb6ff;
+  color: #0b1a2b;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.nav-button:hover {
+  background-color: #8ac7ff;
+}
+
+.nav-button:active {
+  transform: translateY(1px);
+}
+
+/* that took so long to write bro */
+:root {
+  --bg-color: #0d1b2a;      /* gibberish */
+  --text-color: #c7c7c7;    /* hell */
+  --accent-color: #1b3a5f;  /* much more hell */
+}
+
+* {
+  box-sizing: border-box;
+  /* pay me for wifi /*
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* useless sthylin */
+a {
+  color: #9bb7d4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.02);
+  border-radius: 8px;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #6fb6ff; /* clue */
+  color: #0b1a2b;            /* dark text to make it take longer to code lol */
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.nav-button:hover {
+  background-color: #8ac7ff;
+  transform: translateY(-1px);
+}
+
+.nav-button:active {
+  transform: translateY(0);
+}
+
+/* Bruh how long dis gon take to code bruh dis took me like a hour or smthhh */
